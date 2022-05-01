@@ -1,0 +1,68 @@
+
+body {
+    background-image: radial-gradient(#1a01f8, #9000f0);
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+
+}
+.box{
+width: 300px;
+padding: 30px;
+position: center;
+top: auto;
+left: auto;
+text-align: center;
+background-color: rgba(0, 0, 0, 0.733);
+margin-left: auto;
+margin-right:auto;
+}
+
+.box h1
+{
+    color: azure;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+   
+.box input[type="text"],.box input[type="password"]
+{
+    border: 0;
+    background:none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #be9a09;
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25px;
+}
+
+.box input[type="text"]:focus,.box input[type="password"]:focus{
+width: 270px;
+border-color: #9000f0;
+}
+
+.box input[type="submit"]{
+    border: 0;
+    background:none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #9000f0;
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25px;
+    cursor: pointer;
+}
+.box input[type="submit"]:hover{
+background:#9000f0;
+}
+   
